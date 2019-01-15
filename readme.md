@@ -2,7 +2,7 @@
 
 ## 训练步骤：
 - 1.下载 [vgg16.ckpt](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)，并放在代码同级文件夹下，命名为'vgg_16.ckpt'。
-- 2.下载COCO数据集，假设解压后的文件夹路径为 '/path/to/train/'。
+- 2.下载 [COCO数据集](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)，假设解压后的文件夹路径为 '/path/to/train/'。
 - 3.准备好一张风格图像，图像大小不限制，最好使用256*256左右的分辨率图像，假设图像路径为 '/path/to/style.jpg'。
 - 4.配置好环境之后，运行命令：
     `python train.py /path/to/style.jpg /path/to/train/`
