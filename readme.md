@@ -14,7 +14,7 @@
 train.py程序接受两个命令行参数，第一个是风格图像的路径，第二个是训练的数据集的路径。
 - 5.在训练期间，可以使用tensorboard查看训练过程： <br/>
     ```
-    tensorboard --logdi=models/log/
+    tensorboard --logdir=models/log/
     ```
 - 6.训练结束后，在model/log目录下，找到'fast-style-model.ckpt-done'开头的四个文件，这就是最终保存的模型。
 
