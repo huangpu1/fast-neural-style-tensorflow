@@ -1,4 +1,7 @@
-# 基于python3 & tensorflow
+# 固定风格任意内容图像风格迁移
+基于python3 & tensorflow实现的 **固定风格任意内容图像风格迁移** ，是对《Perceptual Losses for Real-Time Style Transfer and Super-Resolution》的实现。
+
+
 
 ## 训练步骤：
 - 1.下载 [vgg16.ckpt](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)，并放在代码同级文件夹下，命名为'vgg_16.ckpt'。
