@@ -7,7 +7,7 @@
 - 4.配置好环境之后，运行命令：<br/>
     ```
     python train.py /path/to/style.jpg /path/to/train/
-    ``` <br/>
+    ```
 train.py程序接受两个命令行参数，第一个是风格图像的路径，第二个是训练的数据集的路径。
 - 5.在训练期间，可以使用tensorboard查看训练过程： <br/>
     ```
